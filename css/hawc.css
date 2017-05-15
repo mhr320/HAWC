@@ -21,6 +21,10 @@ h1, #hh {
 	display: none;
 	margin-top: 100px;
 }
+
+form {
+	display: none;
+}
 /* Copied css begin */
 
 <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
@@ -28,11 +32,12 @@ h1, #hh {
 <style type="text/css">
 
 .form-style-10{
+
     width:450px;
     padding:30px;
     margin:40px auto;
     background: #FFF;
-    border-radius: 10px;
+    border-radius: 100px;
     -webkit-border-radius:10px;
     -moz-border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
