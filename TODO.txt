@@ -13,3 +13,19 @@ TODO:
 			include a form for fullname
 			include form for email address
 		button for "email HAWC admin"
+
+		Intent: 
+
+		SQL
+
+		Lockers
+		Names
+		Areas
+		Operating Inits
+		Date Paid
+		Next Due
+		Reports for when due
+
+		on login we will need to differentiate b/w basic registrant (gets basic window) and administrator (gets ability to add admin, run reports)
+
+		
