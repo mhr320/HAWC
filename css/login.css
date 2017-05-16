@@ -1,18 +1,25 @@
 /*html,body{width:100%;height:100%;padding:0;background:#fff;margin:0;font-family:arial}
 a { text-decoration:none }
-.container { width:262px; margin:0 auto; padding-top:200px; }
+
 
 #bar { width:100%; height:35px; padding:15px 0; background:url(../images/bar.png) repeat-x; }
 #container { width:960px; margin:0 auto; }*/
 
+/*.lcontainer { width:262px; margin:0 auto; padding-top:200px; }*/
+
 /*-------LOGIN STARTS HERE -------*/
 
 /* Login Container (default to float:right) */
+
+
 #loginContainer {
-    position:absolute;
-    float:center;
+    text-align: center;
     font-size:12px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-bottom: 250px;
+
 }
 
 /* Login Button */
@@ -46,15 +53,15 @@ a { text-decoration:none }
     font-weight:bold; 
     text-shadow:1px 1px #fff; 
     padding:7px 29px 9px 29px;
-    display:block
+    display:block;
 }
 #loginButton span {
     color:#445058; 
     font-size:14px; 
     font-weight:bold; 
     text-shadow:1px 1px #fff; 
-    padding:7px 29px 9px 10px;
-    background:url(../images/loginArrow.png) no-repeat 53px 7px;
+    padding:7px 29px 9px 29px;
+    /*background:url(../images/loginArrow.png) no-repeat 53px 7px;*/
     display:block
 }
 
@@ -64,9 +71,10 @@ a { text-decoration:none }
 
 /* Login Box */
 #loginBox {
-    position:absolute;
-    top:34px;
-    right:0;
+    position: absolute;
+    top:0;
+    right: 2px;
+    text-align: center;
     display:none;
     z-index:29;
 }
