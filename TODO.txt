@@ -1,0 +1,15 @@
+TODO:
+	
+		Form for sign in
+			username (email)
+			password (user choice)
+				password recovery (via email)
+			button for signin
+		Form for registration
+			buttons for register 
+		import HAWC waiver
+		display HAWC waiver
+		create "Required Waiver checkbox" (intent to digitally sign waiver)
+			include a form for fullname
+			include form for email address
+		button for "email HAWC admin"
