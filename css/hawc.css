@@ -1,9 +1,5 @@
-body {
-	background-color: #fff;
-}
-
 h1, #hh {
-	margin-top: 50px;
+	margin-top: 150px;
 	text-align: center;
 	font-size: 80px;
 	font-family: Helvetica;
@@ -30,4 +26,8 @@ h1, #hh {
     text-decoration: none;
     margin-left: 30px;
     margin-right: 30px;
+}
+#barb {
+	width: 15%;
+	height: auto;
 }
