@@ -24,6 +24,7 @@ a { text-decoration:none }
 
 /* Login Button */
 #registerButton {
+    text-decoration: none;
     display:inline-block;
     float:left;
     background:#d2e0ea url(../images/buttonbg.png) repeat-x; 
@@ -48,6 +49,7 @@ a { text-decoration:none }
 
 /* Login Button Text */
 #registerButton span {
+    text-decoration: none;
     color:#445058; 
     font-size:14px; 
     font-weight:bold; 
@@ -61,8 +63,10 @@ a { text-decoration:none }
     font-weight:bold; 
     text-shadow:1px 1px #fff; 
     padding:7px 29px 9px 29px;
-    /*background:url(../images/loginArrow.png) no-repeat 53px 7px;*/
     display:block
+}
+#registerButton:hover {
+    background:url(../images/buttonbgHover.png) repeat-x;
 }
 
 #loginButton:hover {
